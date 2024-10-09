@@ -25,7 +25,6 @@
   </script>
   <script type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script type="text/javascript">
 (function(){ emailjs.init({
   publicKey: "FO3VbMBV-la7xfixE", }); })();
@@ -405,27 +404,7 @@
           <button type="submit" class="form__btn">Send</button>
         </form>
         
-        <div class="map__container">
-            <h2 class="section-heading">Our Location</h2>
-            <div class="map-wrapper">
-                <iframe 
-                    width="100%" 
-                    height="450" 
-                    style="border:0; border-radius: 10px;" 
-                    loading="lazy" 
-                    allowfullscreen 
-                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDLbBzSmpqjxz_YA7b5rtYEkWewLEdGVZw&q=Holly+Michigan">
-                </iframe>
-            </div>
-            <div id="distance-result" style="display:none;">
-                <h3>Distance from Your Location to Our Office:</h3>
-                <p id="distance"></p>
-                <p id="duration"></p>
-            </div>
         </div>
-
-<!-- Include the Google Maps API library with Distance Matrix -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLbBzSmpqjxz_YA7b5rtYEkWewLEdGVZw&libraries=places"></script>
 
 <script>
   // Replace with your business address
